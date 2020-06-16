@@ -1,14 +1,11 @@
 # Project 01
 
 ## Project Description
-Native California plants have many environmental benefits. They generally consume less water as they are adapted to our summer dry climates, they also provide critical food and habitat to wildlife that have coevolved with them. Many people don't want to use native California plants in their landscapes because many aren't evergreen. I would argue that the dynamic phonological changes of native California plants and plant communities makes them more interesting than a static evergreen landscape. I see the issue as largely being that people just don't know how to design planting plans using time as dynamic and feature element. My hypothesis is that if people had a tool that would help them design planting plans using phenological visualizations that people would be more inclined to plant native California plants. To solve this problem I will be creating a phenological plant chart generator. The first version of the phenological plant chart will focus on a limited number of plants that are endemic to San Francisco. Shown below is a wireframe I created previously that illustrates generally how I would like the visualization to read. I would eventually like the colors on the bar graph to be reflective of the actual coloring of the plant foliage, bloom, or other seasonal feature.
+Native California plants have many environmental benefits. They generally consume less water as they are adapted to our summer dry climates, they also provide critical food and habitat to wildlife that have coevolved with them. Many people don't want to use native California plants in their landscapes because many aren't evergreen. I would argue that the dynamic phonological changes of native California plants and plant communities makes them more interesting than a static evergreen landscape. I see the issue as largely being that people just don't know how to design planting plans using time as dynamic and feature element. My hypothesis is that if people had a tool that would help them design planting plans using phenological visualizations that people would be more inclined to plant native California plants. To solve this problem I will be creating a phenological plant chart generator. The first version of the phenological plant chart will focus on a limited number of plants that are endemic to San Francisco. Plants will be selected by the user and a chart will be produced based on that plant list showing seasonal interest corresponding to months. Shown below is a wireframe I created previously that illustrates generally how I would like the visualization to read. I would eventually like the colors on the bar graph to be reflective of the actual coloring of the plant foliage, bloom, or other seasonal feature.
 
 Here is a link to a wireframe I created that illustrates a similar idea:
 https://www.dropbox.com/s/tofk5ctpnz7mpgq/Screen%20Shot%202020-06-13%20at%208.15.53%20PM.png?dl=0
 
-### MVP/PostMVP
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.
 
 ## Functional Components
 
@@ -20,7 +17,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 | Chart class | H | 2hr | 1hr | 3hr|
 | Plant selection menu  | M | 2hr| 1hr | 3hr |
 
-| Total | H | 8hrs| 4hr | 12hr |
+| Total |  | 8hrs| 4hr | 12hr |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
@@ -30,7 +27,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 | Formatting plant names to be on the left | L | 3hr | -hr | -hr|
 | Using a graphic library to create chart | H | 8hr | -hr | -hr|
 
-| Total | H | 23hrs| -hrs | -hrs |
+| Total |  | 23hrs| -hrs | -hrs |
 
 ## Additional Libraries
  None. 
