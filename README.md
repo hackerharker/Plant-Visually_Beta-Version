@@ -36,7 +36,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
  None. 
 
 ## Code Snippet
-This is the code that I am most proud of, it is an instance method in the class Plant. It loops through the months in a plant object and returns the seasonal interest. In the test case seasonal interest is always a flower and corresponding flower color. This piece of code delivers a key componenent of this project. In the Post MVP I will try to move this instance function from the Plant class to the Chart class so I don't have to define the 'months' tuple in two places. Then the Plant class will only be used to creat Plant objects and print the Plant object names.
+This is the code that I am most proud of, it is an instance method in the class Plant. It loops through the months in a Plant object and returns the seasonal interest. In this prototype the seasonal interest is always a flower and corresponding flower color. This piece of code delivers a key componenent of this project. In the Post MVP I will try to move this instance function from the Plant class to the Chart class so I don't have to define the 'months' tuple in two places. Then the Plant class will only be used to creat Plant objects and print the Plant object names.
 
 ```python
 
