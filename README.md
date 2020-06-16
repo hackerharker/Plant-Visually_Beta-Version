@@ -52,14 +52,19 @@ This is the code that I am most proud of, it is an instance method in the class 
 
 #### PLANT OBJECTS CAN'T HAVE THE SAME NAME AS THE PLANT OBJECT NAME
 **ERROR**:  In starting this project, I kept trying to name the Plant object the name of the plant:
+
 """PYTHON
+
 Erigeron glaucus = Plant({'JAN':'LAV','FEB':'LAV','MAR':'LAV', 'APR':'LAV', 'MAY':'LAV', 'JUN':'LAV', 'JUL':'LAV', 'AUG':'LAV'})
+
 """
 
 **RESOLUTION**: It took me some time to realize that I had to assign a new variable to each plant that wasn't it's name so that the name could be entered as an argument and initiated with self.name.
 
 """PYTHON
+
 plant_2 = Plant("Erigeron glaucus",{'JAN':'LAV','FEB':'LAV','MAR':'LAV', 'APR':'LAV', 'MAY':'LAV', 'JUN':'LAV', 'JUL':'LAV', 'AUG':'LAV'})
+
 """
 
 #### REMBERING TO REFERENCE THE SELF IN AN INSTANCE METHOD OF A CLASS
@@ -68,15 +73,20 @@ plant_2 = Plant("Erigeron glaucus",{'JAN':'LAV','FEB':'LAV','MAR':'LAV', 'APR':'
 
 #### REMBERING TO USE INSTANCE METHODS FOR CLASS OBJECT
 **ERROR**: I tried to print the plants in my_plants using print(my_plants) and was given the location that the plant object was stored but did not get a list of plant names.
-"""
+
+"""PYTHON
+
 print(all_plants)
 [<__main__.Plant object at 0x114ddcdf0>, <__main__.Plant object at 0x114ddce80>, <__main__.Plant object at 0x114ddce50>, <__main__.Plant object at 0x114ddcfa0>]
 
 """
 **RESOLUTION**: Remembering that for instance methods in a class I have to reference plant.name
+
 """PYTHON
+
 for plant in all_plants:
     print(plant.name)
+    
     """
 
 #### VERTICAL OUTPUTS & HORIZONTAL CHART
@@ -84,6 +94,7 @@ for plant in all_plants:
 **RESOLUTION** Making the output into a string so that it reads horizontally. This was done in a similar way as the pallindrome homework.
 
 """PYTHON
+
         for month in self.months:
             month_list = month_list + " " + month
             
@@ -103,7 +114,9 @@ for plant in all_plants:
 **RESOLUTION** This was usually a problem with my indentation.
 
 This version is wrong, it only prints out the first item on the list due to indents:
+
 """PYTHON
+
             else:
                 interest_string = interest_string + "----"
                     print(interest_string + self.name)     
@@ -112,7 +125,9 @@ This version is wrong, it only prints out the first item on the list due to inde
 
 
 This version prints out all items on the looping list:
+
 """PYTHON
+
             else:
                 interest_string = interest_string + "----"
         print(interest_string + self.name)     
