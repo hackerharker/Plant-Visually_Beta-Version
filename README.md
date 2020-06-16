@@ -132,7 +132,7 @@ This version prints out all items on the looping list:
 """
 
 #### PUTTING PLANT NAMES ON THE LEFT SIDE OF THE CHART DIDN'T WORK
-**ERROR**:  In putting the plant names on the right side of the list the seasonal interest and the months didn't line up correctly because of the varying length of the plant names.                    
+**ERROR**:  In putting the plant names on the left side of the list the seasonal interest and the months didn't line up correctly because of the varying length of the plant names.                    
 **RESOLUTION**: I moved the plant names to the right side of the chart. Visually it's not ideal and I'd like to find a better resolution.
 
 
